@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- make wordle clone -->
+<div id="container">
+    <div id="frame">
+  <!--   header   -->
+      <div id="header">
+        <h1>CHARDLE</h1>
+      </div>
+  <!--   gameboard   -->
+      <div id="gameboard">
+        <div id="row1" class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="row2" class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="row3" class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="row4" class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="row5" class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="row6" class="row">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>      
+      </div>
+        
+  <!--   keyboard     -->
+      <div id="keyboard">
+        <div class="keyrow">
+          <button id="Q" value="Q">Q</button>
+          <button id="W" value="W">W</button>
+          <button id="E" value="E">E</button>
+          <button id="R" value="R">R</button>
+          <button id="T" value="T">T</button>
+          <button id="Y" value="Y">Y</button>
+          <button id="U" value="U">U</button>
+          <button id="I" value="I">I</button>
+          <button id="O" value="O">O</button>
+          <button id="P" value="P">P</button>        
+        </div> 
+        <div class="keyrow">
+          <button id="A" value="A">A</button>
+          <button id="S" value="S">S</button>
+          <button id="D" value="D">D</button>
+          <button id="F" value="F">F</button>
+          <button id="G" value="G">G</button>
+          <button id="H" value="H">H</button>
+          <button id="J" value="J">J</button>
+          <button id="K" value="K">K</button>
+          <button id="L" value="L">L</button>          
+        </div> 
+        <div class="keyrow">
+          <button id="enter">ENTR</button>
+          <button id="Z" value="Z">Z</button>
+          <button id="X" value="X">X</button>
+          <button id="C" value="C">C</button>
+          <button id="V" value="V">V</button>
+          <button id="B" value="B">B</button>
+          <button id="N" value="N">N</button>
+          <button id="M" value="M">M</button>
+          <button id="backspace">BACK</button>          
+        </h3>         
+    </div>
+    <!-- popUp -->
+    <div class="dont-exist" id="dont-exist">
+      <h3>PLS TRY AGAIN (not in dataset)</h3>
+    </div>
+</div>
+<script src="words.js"></script>
+<script defer src="main.js"></script>
+</body>
+</html>
+
